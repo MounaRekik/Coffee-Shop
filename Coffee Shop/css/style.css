@@ -1,0 +1,110 @@
+.mynav
+{
+  background-color: rgba(46, 20, 6,0.9) ;
+  height:60px ;
+ 
+}
+.navbar
+{
+  background-color: transparent !important;
+
+}
+.navbar .navbar-brand
+{
+  color:white;
+  margin-top: -15px;
+  font-size: 23pt;
+  font-family: cursive;
+}
+.navbar-brand:hover 
+{
+  color: #FFF !important;
+
+}
+.navbar-brand:active
+{
+  color: #FFF !important;
+
+}
+.navbar-brand:visited
+{
+  color: #FFF !important;
+
+}
+.navbar .navbar-nav
+{
+  margin:0 auto;
+}
+.navbar .nav-item a
+{
+  color:#FFF !important ;
+  font-size: 15pt;
+}
+.navbar .dropdown-menu
+{
+  background-color:rgb(48, 23, 9) ;
+  
+}
+.dropdown-item:hover
+{
+  background-color:rgba(59, 41, 32, 0.5) ;
+}
+.navbar-nav .nav-item .nav-link
+{
+color:rgba(255,255,255,0.8) !important;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+color:rgba(255,255,255) !important;
+}
+
+body
+{
+  font-family: "Segoe UI";
+ 
+  
+}
+
+.bi-handbag
+{margin-top: -10px;
+  margin-left: 3cm;
+}
+.backgroundimg
+{
+  background-image: url('../images/cafe7.jpg');
+  background-size:cover ;
+  background-position: center center center center;
+
+  height: 100%;
+  width:100%;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI";
+}
+.wrapper 
+{
+    display:grid;
+}
+.inner-image
+{
+    transition: .3s;
+}
+.inner-image:hover
+{
+    transform: scale(0.9);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

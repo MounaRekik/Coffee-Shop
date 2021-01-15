@@ -1,0 +1,190 @@
+.mynav
+{
+  background-color: rgba(46, 20, 6,0.9) ;
+  height:60px ;
+ 
+}
+.navbar
+{
+  background-color: transparent !important;
+
+}
+.navbar .navbar-brand
+{
+  color:white;
+ margin-top: -15px;
+  font-size: 23pt;
+  font-family: cursive;
+}
+.navbar .navbar-brand:hover 
+{
+  color: #FFF !important;
+
+}
+.navbar-brand:active
+{
+  color: #FFF !important;
+
+}
+.navbar-brand:visited
+{
+  color: #FFF !important;
+
+}
+.navbar .navbar-nav
+{
+  margin: 0px auto;
+}
+.navbar .nav-item a
+{
+  color:#FFF !important ;
+  font-size: 15pt;
+}
+.navbar .dropdown-menu
+{
+  background-color:rgba(46, 20, 6) ;
+  
+}
+.dropdown-item:hover
+{
+  background-color:rgba(59, 41, 32, 0.5) ;
+}
+.navbar-nav .nav-item .nav-link
+{
+color:rgba(255,255,255,0.8) !important;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+color:rgba(255,255,255) !important;
+}
+body
+{
+  font-family: "Segoe UI";
+}
+.backgroundimg
+{
+  background-image: url('../images/cafe.jpg');
+  background-size:cover ;
+  background-position: center center center center;
+background-repeat:no-repeat ;
+  height: 100vh;
+  width:auto;
+}
+
+.im
+{
+    width: 150px;
+    height:100px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.im2
+{
+    width: 60px;
+    height: 60px;
+}
+  .im2,.span
+  {
+      margin-left:60px;
+      margin-top: 5px;
+      color: #21409a;;
+  }
+
+  
+  #text-box-1774171492 .text {
+    background-color: rgba(46, 20, 6, 0.6);
+    font-size: 100%;
+    
+  }
+  #text-box-1774171492 .text-inner {
+    padding: 30px 30px 30px 30px;
+    
+  }
+  #text-box-1774171492 {
+    width: 60%;
+    margin-left: 100px;
+    margin-top: 150px;
+  
+  }
+.dark {
+  
+  margin-left:150px;
+  width:330px;
+
+  height:330px;
+  text-align:center;
+ border-radius:1000px;
+  }
+  
+  #text-box-1774171492 .uppercase {
+    font-size: 37pt;
+    margin-top:30px;
+    margin-bottom: 30px;
+   color:white;
+   margin-left:0px ;
+   
+  }
+  #text-box-1774171492 .dark .decouverte {
+  text-decoration: none;
+  border: 2px solid white;
+  padding: 5px 5px 5px 5px;
+  color:white;
+  font-size: 13pt; 
+  font-weight: bold;
+  margin-left: 0.3cm;
+ 
+  }
+  .decouverte:hover
+  {
+background-color: rgb(37, 23, 14);
+  }
+.bi-handbag
+{ margin-top: -10px;
+  margin-left: 3cm;
+}
+
+.container-fluid {
+  overflow: hidden;
+  margin-top: 0px;
+  background:rgb(46, 20, 6) ;
+  color: rgba(255,255,255,0.6) !important;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  height: 450px;
+}
+
+small {
+  font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+  color:  rgba(255,255,255,0.8) !important
+}
+
+.mt-55 {
+  margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+h3 {
+  font-size: calc(34px + (40 - 34) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.social {
+  font-size: 21px !important
+}
+
+.rights {
+  font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+#left
+{margin-left: 10 px;
+}
+li a
+{
+color: rgba(255,255,255,0.6) !important;
+}
+p span
+{
+color:rgba(255,255,255,0.8) !important;
+}

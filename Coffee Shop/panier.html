@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style1.css"/>
+
+    <title>Hello, world!</title>
+   
+
+    
+  <body>
+    <include src="header.html"></include>
+
+  
+    <div class="container ">
+        <div class="jumbotron body">
+            <div class="card " >
+                
+                <div class="card-body">
+                  <h5 class="card-title">Mon panier</h5>
+                  
+                  <table class="table table-striped">
+                    <thead>
+                      <tr>
+                        <th scope="col"> </th>
+                        <th scope="col">Nom du produit</th>
+                        <th scope="col">prix</th>
+                        <th scope="col">Quantité</th>
+                        
+                        <th scope="col">Action</th>
+                      </tr>
+</thead>
+                   
+
+                    <tbody>
+                      
+                      <tr>
+                          <th><img src="images/aa1.png" width="80" height="100"/></th>
+                        <th> <p class="product">Café Pellini Espresso Bar Vivace  - 1 Kg</p></th>
+                        <td scope="row"> <p class="price"> <span  id ="price">77 </span>DT</p>    </td>
+                        <td> 
+                            <div class="quantity">
+                                <button class="btn minus-btn disabled" type="button">-</button>
+                                <input type="text" id="quantity" value="1" class="text">
+                                <button class="btn plus-btn " type="button" value="+">+</button>
+                            </div>
+                         </td>
+                        
+                        
+                        <td><a href="#"  >
+                            <img class="dell" src="images/del.png" width="30px" height="30px"/>
+                         </a></td>
+                      </tr>
+                     
+                      
+                      
+                    </tbody>
+                    
+                  </table>
+                <div class="totalleft">
+                    Total: <span id="total">77</span>  DT.
+                </div>
+              </div>
+        </div>
+    </div>
+    
+    
+    <form >
+      
+    </form>             
+</div>
+           </div>
+           </div>
+           
+           
+           
+           <script>
+            document.querySelector(".minus-btn").setAttribute("disabled","disabled");
+            var valuecount;
+            var prix = document.getElementById("price").innerText;
+            var t =  document.getElementById("total");
+            function total()
+{ 
+    document.getElementById("total").innerText = valuecount * prix;
+
+    
+}
+    
+    
+            document.querySelector(".plus-btn").addEventListener("click",function()
+            {
+                valuecount=document.getElementById("quantity").value;
+                valuecount++;
+                document.getElementById("quantity").value=valuecount;
+                if (valuecount>1)
+                {
+                    document.querySelector(".minus-btn").removeAttribute("disabled");
+                    document.querySelector(".minus-btn").classList.remove("disabled");
+                    total();  
+                   
+                }
+            } )
+            document.querySelector(".minus-btn").addEventListener("click",function()
+            {
+                valuecount=document.getElementById("quantity").value;
+                valuecount--;
+                document.getElementById("quantity").value=valuecount;
+                
+                if (valuecount==1)
+                {
+                    document.querySelector(".minus-btn").setAttribute("disabled","disabled");
+                    
+                }
+                total();
+              
+            } )
+
+
+
+        
+    
+        </script>
+    
+   
+       
+  
+
+  
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>

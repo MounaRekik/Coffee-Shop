@@ -1,0 +1,450 @@
+body
+{
+	
+	font-family: sans-serif;
+	
+}
+.container
+{
+
+	top: 50%;
+	left: 50%;
+	
+	height: 1200px;
+	width: 700px;
+	background: #fff;
+	padding: 45px;
+	box-sizing: border-box;
+	border :1px solid rgba(0,0,0,.1);
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.container h1
+{
+	text-align: center;
+	margin: 0 0 40px;
+	padding: 0;
+	color: #0202a0;
+	letter-spacing: 2px;
+}
+.container input
+{
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 55%;
+	box-sizing: border-box;
+	box-shadow: none;
+	outline: none;
+	
+	border: 2px solid #999;
+}
+.container input[type="submit"]
+{
+	border-radius: 25px;
+	font-size: 20px;
+	height: 40px;
+	cursor : pointer;
+	background: rgb(66,133,244);
+	color: #fff;
+	margin-bottom: 0;
+}
+.container input[type="submit"]:hover
+{
+	background: #34F458;
+	color: #fff;
+}
+.container form div
+{
+	position: relative;
+}
+.container form div label
+{
+	
+	top: 3px;
+	pointer-events: none;
+	
+	
+}
+.container input:focus,
+.container input:valid
+{
+	border: 2px solid rgb(66,133,244);
+}
+.error_form
+{
+	top: 12px;
+	color: rgb(216, 15, 15);
+    font-size: 15px;
+	font-family: Helvetica;
+	
+	
+}
+
+#form_selection
+{
+	box-shadow: none;
+	width: 55%;
+	position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mynav
+{
+  background-color: rgba(46, 20, 6,0.9) ;
+  height:60px ;
+ 
+}
+.navbar
+{
+  background-color: transparent !important;
+
+}
+.navbar .navbar-brand
+{
+  color:white;
+  margin-top: -15px;
+  font-size: 23pt;
+  font-family: cursive;
+}
+.navbar-brand:hover 
+{
+  color: #FFF !important;
+
+}
+.navbar-brand:active
+{
+  color: #FFF !important;
+
+}
+.navbar-brand:visited
+{
+  color: #FFF !important;
+
+}
+.navbar .navbar-nav
+{
+  margin:0 auto;
+}
+.navbar .nav-item a
+{
+  color:#FFF !important ;
+  font-size: 15pt;
+}
+.navbar .dropdown-menu
+{
+  background-color:rgb(48, 23, 9) ;
+  
+}
+.dropdown-item:hover
+{
+  background-color:rgba(59, 41, 32, 0.5) ;
+}
+.navbar-nav .nav-item .nav-link
+{
+color:rgba(255,255,255,0.8) !important;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+color:rgba(255,255,255) !important;
+}
+
+.body
+{
+  background-color:beige;
+
+}
+.c1
+{
+  background-color:white;
+  margin-top:-10px;
+}
+
+
+body
+{
+   
+  font-family: "Segoe UI";
+  font-size: 12pt;
+  font-weight: 400;
+  background-color:beige;
+ 
+}
+.c2
+{
+    margin-top: 50px;
+    font-family:   "Segoe UI";
+   font-size: 20pt;
+}
+.c3
+{
+    font-family:   "Segoe UI";
+   font-size: 14pt;
+   font-weight: 400;
+}
+.lien
+{
+    text-decoration:underline;
+    font-size: 10pt;
+    color: #000;
+}
+
+.c4 
+{
+    color: #0202a0;
+    
+   
+}
+.quantity
+{
+   display: flex;
+   margin-top:50px;
+}
+.quantity .btn
+{
+    width: 45px;
+    height: 45px;
+    border: 1px solid #000;
+    color: #000;
+    border-radius: 0;
+    background: #FFF;
+}
+.quantity input{
+    border: none;
+    height: 45px;
+    border-top:1px solid #000 ;
+    border-bottom:1px solid #000 ;
+    text-align: center;
+    width: 100px;
+    font-size: 20px;
+    color: #000;
+    font-weight: 300;
+    margin-top: -10px;
+} 
+div .total 
+{
+   margin-left:px;
+   margin-top: 10px;
+   color: rgb(90, 64, 50);
+   font-weight:600;
+   font-size: 25pt;
+   
+}
+.ajout
+{ height: 45px;
+   margin-left: 0px;
+   margin-top:50px;
+   width:280px;
+   text-align: center;
+   font-weight: 600;
+   background-color: #0202a0;
+   border:  #0202a0 ;
+   font-size: 15pt;
+}
+.part2
+{
+    margin-left: 60px;;
+}
+
+
+#sitelink {
+  font-size: 35px;
+  color: #f44336
+}
+
+#sitelink:hover {
+  color: #e65100
+}
+
+#title {
+  color: gray;
+  position: relative;
+  top: 0px;
+  font-size: 14.1px
+}
+
+#detail {
+  color: #aaa7a7;
+  font-size: 16px
+}
+
+#explore {
+  width: 14%;
+  height: 280px;
+  position: relative;
+  top: -235px;
+  left: 29%
+}
+
+#txt1,
+#txt2,
+#txt3,
+#txt4,
+#txt5 {
+  color: white;
+  font-size: 20px
+}
+
+.link {
+  display: flex;
+  width: 90px;
+  height: 40px;
+  color: #aaa7a7;
+  background-color: transparent;
+  border-top: 2px solid white;
+  position: relative;
+  top: -10px
+}
+
+.link:hover,
+.link1:hover {
+  color: #e65100
+}
+
+#visit {
+  width: 14%;
+  height: 280px;
+  position: relative;
+  top: -515px;
+  left: 42%
+}
+
+.text {
+  color: #aaa7a7;
+  font-size: 14px;
+  margin-top: -10px
+}
+
+#legal {
+  width: 14%;
+  height: 280px;
+  position: relative;
+  top: -800px;
+  left: 59.5%
+}
+
+.link1 {
+  display: flex;
+  width: 150px;
+  height: 40px;
+  color: #aaa7a7;
+  background-color: transparent;
+  border-top: 2px solid white;
+  position: relative;
+  top: -10px;
+  margin-top: 7px
+}
+
+#subscribe {
+  position: relative;
+  top: -1080px;
+  left: 78%;
+  width: 14%;
+  height: 280px
+}
+
+#email {
+  color: white;
+  position: relative;
+  top: -20px
+}
+
+.btn {
+  position: relative;
+  top: -10px
+}
+
+#txt5 {
+  position: relative;
+  top: 0px
+}
+
+.social {
+  position: relative;
+  top: -5px;
+  margin-right: 10px;
+  color: white;
+  cursor: pointer
+}
+
+.fa-facebook-square:hover {
+  color: #3B579D
+}
+
+.fa-linkedin:hover {
+  color: #007BB6
+}
+
+.fa-twitter-square:hover {
+  color: #2CAAE1
+}
+
+#txt6 {
+  color: white;
+  position: relative;
+  top: 13px;
+  left: 8%;
+  width: 80%;
+  color: #aaa7a7
+}
+
+.material-icons {
+  position: relative;
+  top: 3px
+}
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+
+
+.container-fluid {
+    overflow: hidden;
+    margin-top: 50px;
+    background:rgb(46, 20, 6) ;
+    color: rgba(255,255,255,0.6) !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 450px;
+}
+
+small {
+    font-size: calc(12px + (15 - 12) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+.bold-text {
+    color:  rgba(255,255,255,0.8) !important
+}
+
+.mt-55 {
+    margin-top: calc(50px + (60 - 50) * ((100vw - 360px) / (1600 - 360))) !important
+}
+
+
+
+.social {
+    font-size: 21px !important
+}
+
+.rights {
+    font-size: calc(10px + (12 - 10) * ((100vw - 360px) / (1600 - 360))) !important
+}
+#left
+{margin-left: 10 px;
+}
+li a
+{
+  color: rgba(255,255,255,0.6) !important;
+}
